@@ -1354,61 +1354,61 @@ El modelo se utiliza para aplicar una **tarifa plana** entre dos puntos geográf
 
 ### Mapeo de Modelo vs Colecciones en Base de Datos
 
-| Nombre de Modelos         | Nombre de colecciones      |
-| :------------------------ | :------------------------- |
-| Admin_Settings            | Setings                    |
-| Admin                     | Admins                     |
-| Airport                   | Airports                   |
-| AirportToCity             | Airport_to_cities          |
-| Api-Partner               | Api-Partners               |
-| Bank Details              | Bank Details               |
-| Card                      | Cards                      |
-| City                      | Cities                     |
-| City To City              | City to Cities             |
-| City Type                 | city Types                 |
-| City Zone                 | city zones                 |
-| Corporate                 | corporates                 |
-| Country                   | coutries                   |
-| Country Data              | country datas              |
-| Dispatcher                | Dispatchers                |
-| Documents                 | docuemnts                  |
-| Email Details             | email details              |
-| Emergency Contact Details | Emergency Contact Details  |
-| Ferry Ticket              | Ferry Tickets              |
-| Guest Token               | Guest Tokens               |
-| Helpers                   | Helpers                    |
-| Hotel                     | Hotels                     |
-| Inbox Notifications       | Inbox Notifications        |
-| Information               | Information                |
-| Languages                 | Languages                  |
-| Partner Vehicle Documents | Partner Vehicle Documents  |
-| Partner Weekly Earning    | Partner Weekly Earning     |
-| Partner                   | Partners                   |
-| Payment Transaction       | Payment Transactions       |
-| Promo Code                | Promo Codes                |
-| Provider Daily Analytic   | Provider Daily Analytics   |
-| Provider Daily Earning    | Provider Daily Earning     |
-| Provider Document         | Provider Documents         |
-| Provider Vehicle Document | Provider Vehicle Documents |
-| Provider Weekley Earning  | Provider Weekley Earning   |
-| Provider                  | Providers                  |
-| Redzone Area              | Redzone Area               |
-| Request User Corporate    | Request User Corporates    |
-| Reviews                   | Reviews                    |
-| Service Specifications    | Service Specifications     |
-| Sms Details               | Sms Details                |
-| State by Country          | satte by countries         |
-| Transfer Histroy          | Transfer Histrories        |
-| Trip History              | Trip Histories             |
-| Trip Location             | Trip Locations             |
-| Trip Service              | Trip Services              |
-| Trip                      | Trips                      |
-| Type Capacity             | Type Capacities            |
-| Type Models               | Type Models                |
-| Type Services             | Type Services              |
-| Type                      | Types                      |
-| User Document             | User Documents             |
-| user Promo Used           | user Promo Uses            |
-| User                      | Users                      |
-| Wallet History            | Wallet Histories           |
-| Zonnevalue                | Zonnevalues                |
+| Nombre de Modelos         | Nombre de Colecciones      | Colecciones  Referenciadas                                                                 |
+| :------------------------ | :------------------------- | ------------------------------------------------------------------------------------------ |
+| Admin_Settings            | Setings                    |                                                                                            |
+| Admin                     | Admins                     | Countries                                                                                  |
+| Airport                   | Airports                   | Cities                                                                                     |
+| AirportToCity             | Airport_to_cities          | Cities, Airports y services                                                                |
+| Api-Partner               | Api-Partners               |                                                                                            |
+| Bank Details              | Bank Details               |                                                                                            |
+| Card                      | Cards                      | Users                                                                                      |
+| City                      | Cities                     | Countries                                                                                  |
+| City To City              | City to Cities             | Citites y Services                                                                         |
+| City Type                 | city Types                 | Countries                                                                                  |
+| City Zone                 | city zones                 | Cities y Providers                                                                         |
+| Corporate                 | corporates                 | Users                                                                                      |
+| Country                   | coutries                   |                                                                                            |
+| Country Data              | country datas              |                                                                                            |
+| Dispatcher                | Dispatchers                | Countries y Cities                                                                         |
+| Documents                 | docuemnts                  | Countries                                                                                  |
+| Email Details             | email details              | Countries                                                                                  |
+| Emergency Contact Details | Emergency Contact Details  | Users                                                                                      |
+| Ferry Ticket              | Ferry Tickets              | Users, Corporates, Services y Countries                                                    |
+| Guest Token               | Guest Tokens               |                                                                                            |
+| Helpers                   | Helpers                    |                                                                                            |
+| Hotel                     | Hotels                     | Countries y Cities                                                                         |
+| Inbox Notifications       | Inbox Notifications        | Countries                                                                                  |
+| Information               | Information                |                                                                                            |
+| Languages                 | Languages                  |                                                                                            |
+| Partner Vehicle Documents | Partner Vehicle Documents  | Documents, Partners                                                                        |
+| Partner Weekly Earning    | Partner Weekly Earning     | Providers                                                                                  |
+| Partner                   | Partners                   | Countries y Cities                                                                         |
+| Payment Transaction       | Payment Transactions       |                                                                                            |
+| Promo Code                | Promo Codes                |                                                                                            |
+| Provider Daily Analytic   | Provider Daily Analytics   | Providers                                                                                  |
+| Provider Daily Earning    | Provider Daily Earning     | Providers                                                                                  |
+| Provider Document         | Provider Documents         | Documents, Providers                                                                       |
+| Provider Vehicle Document | Provider Vehicle Documents | Documents, Providers                                                                       |
+| Provider Weekley Earning  | Provider Weekley Earning   | Providers                                                                                  |
+| Provider                  | Providers                  | Services                                                                                   |
+| Redzone Area              | Redzone Area               | Cities                                                                                     |
+| Request User Corporate    | Request User Corporates    |                                                                                            |
+| Reviews                   | Reviews                    | Users y Providers                                                                          |
+| Service Specifications    | Service Specifications     |                                                                                            |
+| Sms Details               | Sms Details                |                                                                                            |
+| State by Country          | State by countries         | Countries                                                                                  |
+| Transfer Histroy          | Transfer Histrories        | Countries y Users                                                                          |
+| Trip History              | Trip Histories             | Services, Providers, Users, Trip Services, Promo Codes, Cities, Countries y Api Partners   |
+| Trip Location             | Trip Locations             | Trips                                                                                      |
+| Trip Service              | Trip Services              | Service Types, Trips, Cities                                                               |
+| Trip                      | Trips                      | Providers, Service Types, Users, Promo Codes, Cities, Countries, Corporates y Api Partners |
+| Type Capacity             | Type Capacities            |                                                                                            |
+| Type Models               | Type Models                | Services Types                                                                             |
+| Type Services             | Type Services              | Service Specifications                                                                     |
+| Type                      | Types                      |                                                                                            |
+| User Document             | User Documents             | Users y Documents                                                                          |
+| user Promo Used           | user Promo Uses            | Trips y Promo Codes                                                                        |
+| User                      | Users                      | Corporates, Providers y Trips                                                              |
+| Wallet History            | Wallet Histories           | Users y Countries                                                                          |
+| Zonnevalue                | Zonnevalues                | Cities y Service Types                                                                     |

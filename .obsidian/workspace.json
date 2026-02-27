@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a7db8820602211b2",
+        "id": "0b1a7431fe4ca82a",
         "type": "tabs",
         "children": [
           {
-            "id": "7bc1f2885bea57d1",
+            "id": "178d1b17a5979ad8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 Base de Datos/Base de Datos Actual.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Base de Datos Actual"
+              "title": "New tab"
             }
           }
         ]
@@ -183,10 +179,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "7bc1f2885bea57d1",
+  "active": "178d1b17a5979ad8",
   "lastOpenFiles": [
-    "Grafo-flety.svg",
+    "04 Código/Models.md",
     "05 Base de Datos/Base de Datos Actual.md",
+    "Grafo-flety.svg",
     "fletyDefinitivo/Grafo-flety.svg 1.md",
     "fletyDefinitivo/Grafo-flety.svg.md",
     "fletyDefinitivo",
@@ -197,7 +194,6 @@
     "Grafo-flety.md",
     "04 Código/Routes.md",
     "04 Código/Controllers.md",
-    "04 Código/Models.md",
     "_sidebar.md",
     "05 Base de Datos/DB.md",
     "03 API's/Swagger/Providers/add-bank-use-payu-sw.md",
