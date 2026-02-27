@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ee1303fc41f4d995",
+        "id": "a7db8820602211b2",
         "type": "tabs",
         "children": [
           {
-            "id": "693131f0c13166c5",
+            "id": "7bc1f2885bea57d1",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Grafo-flety.svg"
+                "file": "05 Base de Datos/Base de Datos Actual.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Grafo-flety"
+              "icon": "lucide-file",
+              "title": "Base de Datos Actual"
             }
           }
         ]
@@ -181,10 +183,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "693131f0c13166c5",
+  "active": "7bc1f2885bea57d1",
   "lastOpenFiles": [
-    "05 Base de Datos/Base de Datos Actual.md",
     "Grafo-flety.svg",
+    "05 Base de Datos/Base de Datos Actual.md",
+    "fletyDefinitivo/Grafo-flety.svg 1.md",
+    "fletyDefinitivo/Grafo-flety.svg.md",
+    "fletyDefinitivo",
     "Grafo -flety.svg",
     "Grafo-flety.png",
     "Grafo-flety.jpeg",
@@ -212,8 +217,6 @@
     "03 API's/Swagger/Providers/provider-location-sw.md",
     "03 API's/Swagger/Providers/provider-heat-map-sw.md",
     "03 API's/Swagger/Providers/provider-update-type-sw.md",
-    "03 API's/Swagger/Providers/provider-trip-history-sw.md",
-    "03 API's/Swagger/Providers/provider-give-rating-sw.md",
     "03 API's/Swagger/Providers/{{URL}}",
     "Pasted image 20260202092310.png",
     "03 API's/Swagger/Providers",
@@ -225,7 +228,6 @@
     "05 Base de Datos",
     "Pasted image 20260202093133.png",
     "Pasted image 20260202092837.png",
-    "Pasted image 20260202092305.png",
-    "03 Código"
+    "Pasted image 20260202092305.png"
   ]
 }
