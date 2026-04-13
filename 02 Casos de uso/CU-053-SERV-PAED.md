@@ -24,15 +24,15 @@ Este caso de uso describe el proceso de modificación de los parámetros regiona
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema carga la información de los parámetros de país seleccionados. |
-| 2) El usuario modifica el estado de operación (ON/OFF), nombre, código de moneda (ej. INR), símbolo (₹) y código de teléfono (+91). | |
-| 3) El usuario selecciona el método de pago (**Banco** o **Efectivo**). Si es Banco, define el día y zona horaria para transferencias automáticas. | |
-| 4) El usuario configura el **Sistema de Referidos**: activa interruptores y define montos (amigo, propio) y límite de usos. | |
-| 5) El usuario elige la **Pasarela de Pago** activa (Stripe, Paystack o Payu). | |
-| 6) El usuario presiona el botón "Enviar". | 7) El sistema deja persistencia de los datos y redirige a **CU-052-SERV-PAÍS**. |
-| **Fin** | |
+| Actor Principal (Usuario)                                                                                                                                      | Actor Secundario (Sistema)                                                      |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+|                                                                                                                                                                | 1) El sistema carga la información de los parámetros de país seleccionados.     |
+| 2) El usuario modifica el estado de operación (ON/OFF), nombre, código de moneda (ej. INR), símbolo (₹) y código de teléfono (+91).                            |                                                                                 |
+| 3) El usuario selecciona el método de pago (**Banco** o **Efectivo**) al conductor. Si es Banco, define el día y zona horaria para transferencias automáticas. |                                                                                 |
+| 4) El usuario configura el **Sistema de Referidos** de usuarios y conductores: activa interruptores y define montos (amigo, propio) y límite de usos.          |                                                                                 |
+| 5) El usuario elige la **Pasarela de Pago** activa (Stripe, Paystack o Payu).                                                                                  |                                                                                 |
+| 6) El usuario presiona el botón "Enviar".                                                                                                                      | 7) El sistema deja persistencia de los datos y redirige a **CU-052-SERV-PAÍS**. |
+| **Fin**                                                                                                                                                        |                                                                                 |
 
 ---
 

@@ -23,14 +23,14 @@ Este caso de uso describe la funcionalidad que permite al administrador supervis
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema consulta y despliega el listado de tarifas: País, Ciudad, Tipo de Precio, Tipo de Vehículo y estatus de negocio. |
-| 2) El usuario puede clasificar la lista por Ciudad. | |
-| 3) El usuario puede buscar una tarifa específica. | |
-| 4) El usuario puede filtrar los registros por un rango de fechas. | |
-| 5) El usuario selecciona el botón "Exportar". | 6) El sistema construye y descarga el documento (Excel/CSV) con la información visible. |
-| **Fin** | |
+| Actor Principal (Usuario)                                         | Actor Secundario (Sistema)                                                                                                                                                                                |
+| :---------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                   | 1) El sistema consulta y despliega el listado de tarifas: País, países de negocio,  Ciudad, ciudades de negocio,  Tipo de Precio, Tipo, tipo de negocio, tipo de Vehículo, estatus de negocio y opciones. |
+| 2) El usuario puede clasificar la lista por Ciudad.               |                                                                                                                                                                                                           |
+| 3) El usuario puede buscar una tarifa específica.                 |                                                                                                                                                                                                           |
+| 4) El usuario puede filtrar los registros por un rango de fechas. |                                                                                                                                                                                                           |
+| 5) El usuario selecciona el botón "Exportar".                     | 6) El sistema construye y descarga el documento (Excel/CSV) con la información visible.                                                                                                                   |
+| **Fin**                                                           |                                                                                                                                                                                                           |
 
 ---
 

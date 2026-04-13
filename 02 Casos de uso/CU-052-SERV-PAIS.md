@@ -23,12 +23,12 @@ Este caso de uso describe la funcionalidad que permite al administrador gestiona
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema presenta una cuadrícula de tarjetas que representan los países activos o registrados. |
-| 2) El usuario visualiza de forma rápida: **Bandera**, **Nombre**, **Moneda** (ej. ₹, Bs), **Código de teléfono** (ej. +58) y **Estado del Negocio** (ON/OFF). | |
-| 3) El usuario puede filtrar la información mostrada. | |
-| **Fin** | |
+| Actor Principal (Usuario)                                                                                                                                                                  | Actor Secundario (Sistema)                                                                          |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+|                                                                                                                                                                                            | 1) El sistema presenta una cuadrícula de tarjetas que representan los países activos o registrados. |
+| 2) El usuario visualiza de forma rápida: **Bandera**, **Nombre**, **Moneda** (ej. ₹, Bs), **Código de teléfono** (ej. +58) y **Estado del Negocio** (ON/OFF) y campo de pago al conductor. |                                                                                                     |
+| 3) El usuario puede filtrar la información mostrada.                                                                                                                                       |                                                                                                     |
+| **Fin**                                                                                                                                                                                    |                                                                                                     |
 
 ---
 

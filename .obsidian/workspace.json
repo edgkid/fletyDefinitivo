@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b1a7431fe4ca82a",
+        "id": "9b87cf54e074db44",
         "type": "tabs",
         "children": [
           {
-            "id": "178d1b17a5979ad8",
+            "id": "73ad21c513a89601",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Casos de uso/CU-058-SERV-TARF.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CU-058-SERV-TARF"
             }
           }
         ]
@@ -179,11 +183,25 @@
       "bases:Create new base": false
     }
   },
-  "active": "178d1b17a5979ad8",
+  "active": "73ad21c513a89601",
   "lastOpenFiles": [
+    "02 Casos de uso/CU-057-SERV-NWCY.md",
+    "02 Casos de uso/CU-056-SERV-EDCY.md",
+    "02 Casos de uso/CU-053-SERV-PAED.md",
+    "02 Casos de uso/CU-052-SERV-PAIS.md",
+    "02 Casos de uso/CU-052-SERV-PAÍS.md",
+    "02 Casos de uso/CU-051-SERV-NWTS.md",
+    "02 Casos de uso/CU-050-SERV-EDIT.md",
+    "02 Casos de uso/CU-048-ALIA-BANC.md",
+    "02 Casos de uso/CU-047-ALIA-COND.md",
+    "02 Casos de uso/CU-046-ALIA-DETA.md",
+    "02 Casos de uso/CU-045-Aliados.md",
+    "02 Casos de uso/CU-043-CORP-EDIT.md",
+    "02 Casos de uso/CU-042-Corporativo.md",
+    "Grafo-flety.svg",
+    "Pasted image 20260202092305.png",
     "04 Código/Models.md",
     "05 Base de Datos/Base de Datos Actual.md",
-    "Grafo-flety.svg",
     "fletyDefinitivo/Grafo-flety.svg 1.md",
     "fletyDefinitivo/Grafo-flety.svg.md",
     "fletyDefinitivo",
@@ -200,19 +218,7 @@
     "03 API's/Swagger/Providers/add-bank-use-paystack-sw.md",
     "03 API's/Swagger/Providers/upload-document-provider-sw.md",
     "03 API's/Diseño y Documentación de API’s.md",
-    "03 API's/Swagger/Providers/complete-trip-sw.md",
-    "03 API's/Swagger/Providers/check-destination-sw.md",
-    "03 API's/Swagger/Providers/change-active-status-sw.md",
-    "03 API's/Swagger/Providers/add_bank_detail-sw.md",
-    "03 API's/Swagger/Providers/fail-stripe-payment-intent-sw.md",
-    "03 API's/Swagger/Provider/fail-stripe-payment-intent-sw.md",
     "03 API's/Swagger/Provider",
-    "03 API's/Swagger/fail-stripe-payment-intent-sw.md",
-    "03 API's/Swagger/Providers/send-paystack-detail-sw.md",
-    "03 API's/Swagger/Providers/register-verification-sw.md",
-    "03 API's/Swagger/Providers/provider-location-sw.md",
-    "03 API's/Swagger/Providers/provider-heat-map-sw.md",
-    "03 API's/Swagger/Providers/provider-update-type-sw.md",
     "03 API's/Swagger/Providers/{{URL}}",
     "Pasted image 20260202092310.png",
     "03 API's/Swagger/Providers",
@@ -223,7 +229,6 @@
     "03 API's/Swagger",
     "05 Base de Datos",
     "Pasted image 20260202093133.png",
-    "Pasted image 20260202092837.png",
-    "Pasted image 20260202092305.png"
+    "Pasted image 20260202092837.png"
   ]
 }

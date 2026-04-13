@@ -24,16 +24,17 @@ Este caso de uso describe el proceso para modificar la configuración operativa,
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema despliega el formulario con los campos precargados: Nombre de tipo 1, Nombre de tipo 2 (rango de capacidad), y el número de secuencia. |
-| 2) El usuario define si el servicio está activo (**Negocio ON/OFF**). | |
-| 3) El usuario activa/desactiva mediante interruptores las propiedades: ¿Tiene Capacidad?, ¿Tiene tipo de camión?, ¿Tiene servicios?, ¿Tiene especificaciones?. | |
-| 4) **Asignación de Parámetros**: Si están activos, el usuario selecciona de listas desplegables los "Servicios" relacionados y el "Modelo de Camión". | |
-| 5) El usuario puede marcar el vehículo como "Selección por defecto" mediante un interruptor. | |
-| 6) El usuario carga o cambia las imágenes: **Fotografía representativa**, **Imagen de marcador de mapa** e **Imagen de pin del panel**. | |
-| 7) Presiona guardar. | 8) El sistema deja persistencia de los datos y redirige a **CU-049-SERV-TIPO**. |
-| **Fin** | |
+| Actor Principal (Usuario)                                                                                                                                      | Actor Secundario (Sistema)                                                                                                                           |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                                                                                                | 1) El sistema despliega el formulario con los campos precargados: Nombre de tipo 1, Nombre de tipo 2 (rango de capacidad), y el número de secuencia. |
+| 2) El usuario define si el servicio está activo (**Negocio ON/OFF**).                                                                                          |                                                                                                                                                      |
+| 3) El usuario activa/desactiva mediante interruptores las propiedades: ¿Tiene Capacidad?, ¿Tiene tipo de camión?, ¿Tiene servicios?, ¿Tiene especificaciones?. |                                                                                                                                                      |
+| 4) **Asignación de Parámetros**: Si están activos, el usuario selecciona de listas desplegables los "Servicios" relacionados y el "Modelo de Camión".          |                                                                                                                                                      |
+| 5) El usuario puede marcar el vehículo como "Selección por defecto" mediante un interruptor.                                                                   |                                                                                                                                                      |
+| 6) El usuario carga o cambia las imágenes: **Fotografía representativa**, **Imagen de marcador de mapa** e **Imagen de pin del panel**.                        |                                                                                                                                                      |
+| 7)EL usuario puede indicar medidas, paletas y capacidades.                                                                                                     |                                                                                                                                                      |
+| 8) Presiona guardar.                                                                                                                                           | 9) El sistema deja persistencia de los datos y redirige a **CU-049-SERV-TIPO**.                                                                      |
+| **Fin**                                                                                                                                                        |                                                                                                                                                      |
 
 ---
 

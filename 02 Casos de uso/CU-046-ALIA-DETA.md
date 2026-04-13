@@ -24,12 +24,12 @@ Este caso de uso describe la funcionalidad que permite al administrador visualiz
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema carga la información del aliado: nombre, apellido, teléfono, dirección, email, compañía e imagen. |
-| 2) El usuario puede editar los datos mostrados. | |
-| 3) El usuario guarda los cambios. | 4) El sistema deja la persistencia en caso exitoso y redirige a **CU-045-ALIA-DASH**. |
-| **Fin** | |
+| Actor Principal (Usuario)                       | Actor Secundario (Sistema)                                                                                                                           |
+| :---------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                 | 1) El sistema carga la información del aliado: prueba de identificación, nombre, apellido, teléfono,  país, dirección, email, compañía y contraseña. |
+| 2) El usuario puede editar los datos mostrados. |                                                                                                                                                      |
+| 3) El usuario guarda los cambios.               | 4) El sistema deja la persistencia en caso exitoso y redirige a **CU-045-ALIA-DASH**.                                                                |
+| **Fin**                                         |                                                                                                                                                      |
 
 ---
 

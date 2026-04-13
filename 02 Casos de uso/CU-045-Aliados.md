@@ -23,16 +23,16 @@ Este caso de uso describe la funcionalidad que permite centralizar y gestionar a
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema muestra una tabla con información de aliados: Nombre, Empresa, RIF, Cantidad de viajes completados, Vehículos activos y Choferes registrados. |
-| 2) El administrador puede aplicar filtros para encontrar un aliado específico. | |
-| 3) El administrador despliega el menú "Opciones" de un aliado para realizar tareas de supervisión. | |
-| 4) El administrador puede eliminar un aliado. | 5) El sistema muestra un mensaje de confirmación. |
-| 6) El administrador puede rechazar un aliado. | 7) El sistema muestra un mensaje con el resultado de la operación. |
-| 8) El administrador puede aprobar un aliado. | 9) El sistema muestra un mensaje con el resultado de la operación. |
-| 10) El administrador puede borrar un documento de identificación. | 11) El sistema muestra un mensaje con el resultado de la operación. |
-| **Fin** | |
+| Actor Principal (Usuario)                                                                          | Actor Secundario (Sistema)                                                                                                                                                               |
+| :------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                                    | 1) El sistema muestra una tabla con información de aliados: ítem,  Nombre, Empresa, Email, RIF, completado, Vehículos activos, Choferes registrados, Teléfono, Ciudad, Perfil, Opciones. |
+| 2) El administrador puede aplicar filtros para encontrar un aliado específico.                     |                                                                                                                                                                                          |
+| 3) El administrador despliega el menú "Opciones" de un aliado para realizar tareas de supervisión. |                                                                                                                                                                                          |
+| 4) El administrador puede eliminar un aliado.                                                      | 5) El sistema muestra un mensaje de confirmación.                                                                                                                                        |
+| 6) El administrador puede rechazar un aliado.                                                      | 7) El sistema muestra un mensaje con el resultado de la operación.                                                                                                                       |
+| 8) El administrador puede aprobar un aliado.                                                       | 9) El sistema muestra un mensaje con el resultado de la operación.                                                                                                                       |
+| 10) El administrador puede borrar un documento de identificación.                                  | 11) El sistema muestra un mensaje con el resultado de la operación.                                                                                                                      |
+| **Fin**                                                                                            |                                                                                                                                                                                          |
 
 ---
 

@@ -24,13 +24,13 @@ Este caso de uso describe el proceso para modificar la información básica, dat
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema recupera y muestra la información actual: nombre, email, país, teléfono y el estado de los interruptores de configuración. |
-| 2) El administrador realiza los cambios necesarios (ej. actualizar el teléfono o activar/desactivar beneficios). | 3) El sistema realiza las validaciones pertinentes. |
-| 4) El administrador guarda los cambios. | 5) Se deja persistencia de los cambios realizados. |
-| | 6) El sistema redirige al caso de uso **CU-042-CORP-DASH**. |
-| **Fin** | |
+| Actor Principal (Usuario)                                                                                        | Actor Secundario (Sistema)                                                                                                                                                                                                                                                                 |
+| :--------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                                                  | 1) El sistema recupera y muestra la información actual: nombre, email, país, teléfono, contraseña y el estado de los interruptores de configuración; 1) ¿usar precio corporativo?, 2) ¿utilizar beneficios fijos de socio?, 3) preliquidación, 4) activar API, 5) ¿permitir editar viajes? |
+| 2) El administrador realiza los cambios necesarios (ej. actualizar el teléfono o activar/desactivar beneficios). | 3) El sistema realiza las validaciones pertinentes.                                                                                                                                                                                                                                        |
+| 4) El administrador guarda los cambios.                                                                          | 5) Se deja persistencia de los cambios realizados.                                                                                                                                                                                                                                         |
+|                                                                                                                  | 6) El sistema redirige al caso de uso **CU-042-CORP-DASH**.                                                                                                                                                                                                                                |
+| **Fin**                                                                                                          |                                                                                                                                                                                                                                                                                            |
 
 ---
 

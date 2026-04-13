@@ -24,13 +24,13 @@ Este caso de uso describe la funcionalidad que permite al administrador visualiz
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema carga un listado de conductores con información de nombre, email, teléfono y ciudad. |
-| 2) El usuario puede aplicar filtros sobre los resultados. | |
-| 3) El usuario visualiza la información. | |
-| 4) El usuario puede aprobar a un conductor aliado. | 5) Muestra pop-up con información a enviar. |
-| **Fin** | |
+| Actor Principal (Usuario)                                 | Actor Secundario (Sistema)                                                                                               |
+| :-------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------- |
+|                                                           | 1) El sistema carga un listado de conductores con información: ítem, nombre, email, teléfono, ciudad, perfil y vehículo. |
+| 2) El usuario puede aplicar filtros sobre los resultados. |                                                                                                                          |
+| 3) El usuario visualiza la información.                   |                                                                                                                          |
+| 4) El usuario puede aprobar a un conductor aliado.        | 5) Muestra pop-up con información a enviar.                                                                              |
+| **Fin**                                                   |                                                                                                                          |
 
 ---
 

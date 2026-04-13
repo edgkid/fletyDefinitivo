@@ -23,15 +23,14 @@ Este caso de uso describe la funcionalidad que permite al administrador visualiz
 
 ### 🔄 Flujo del Sistema
 
-| Actor Principal (Usuario) | Actor Secundario (Sistema) |
-| :--- | :--- |
-| | 1) El sistema recupera la lista de usuarios y muestra los siguientes campos por registro: Item (ID), Perfil, Nombre, Teléfono, Solicitud, Completado, Cancelado, Ciudad, Portafolio, Versión del App, y Fecha de Registro. |
-| 2) Visualiza la información mostrada. | |
-| 3) Filtra la información mostrada, indica parámetros como: rango de fecha, ubicación y datos de la tabla. | |
-| 4) Puede aprobar. | 5) Muestra mensaje de éxito. |
-| 6) Puede rechazar a un usuario. | 7) Rechaza y muestra un mensaje de éxito. |
-| 8) Puede eliminar un usuario. | 9) Muestra un mensaje de confirmación. |
-| **Fin** | |
+| Actor Principal (Usuario)                                                                                 | Actor Secundario (Sistema)                                                                                                                                                                                                                |
+| :-------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                                                                                                           | 1) El sistema recupera la lista de usuarios y muestra los siguientes campos por registro:  ítem, nombre, empresa, email, teléfono, factura fiscal, RIF, Ciudad, solicitud, completado, portafolio, la Fecha Registrada, perfil y opciones |
+| 2) Visualiza la información mostrada.                                                                     |                                                                                                                                                                                                                                           |
+| 3) Filtra la información mostrada, indica parámetros como: rango de fecha, ubicación y datos de la tabla. |                                                                                                                                                                                                                                           |
+| 4) Puede aprobar.                                                                                         | 5) Muestra mensaje de éxito.                                                                                                                                                                                                              |
+| 6) Puede eliminar un usuario                                                                              | 7) Elimina y muestra un mensaje de éxito.                                                                                                                                                                                                 |
+| **Fin**                                                                                                   |                                                                                                                                                                                                                                           |
 
 ---
 
