@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Casos de uso/CU-058-SERV-TARF.md",
+                "file": "02 Casos de uso/CU-067-SERV-SERV.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CU-058-SERV-TARF"
+              "title": "CU-067-SERV-SERV"
             }
           }
         ]
@@ -183,10 +183,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "73ad21c513a89601",
+  "active": "8b2e8d230ee7de33",
   "lastOpenFiles": [
-    "02 Casos de uso/CU-057-SERV-NWCY.md",
     "02 Casos de uso/CU-056-SERV-EDCY.md",
+    "02 Casos de uso/CU-062-SERV-NWCP.md",
+    "02 Casos de uso/CU-058-SERV-TARF.md",
+    "02 Casos de uso/CU-057-SERV-NWCY.md",
     "02 Casos de uso/CU-053-SERV-PAED.md",
     "02 Casos de uso/CU-052-SERV-PAIS.md",
     "02 Casos de uso/CU-052-SERV-PAÍS.md",
@@ -216,8 +218,6 @@
     "05 Base de Datos/DB.md",
     "03 API's/Swagger/Providers/add-bank-use-payu-sw.md",
     "03 API's/Swagger/Providers/add-bank-use-paystack-sw.md",
-    "03 API's/Swagger/Providers/upload-document-provider-sw.md",
-    "03 API's/Diseño y Documentación de API’s.md",
     "03 API's/Swagger/Provider",
     "03 API's/Swagger/Providers/{{URL}}",
     "Pasted image 20260202092310.png",
